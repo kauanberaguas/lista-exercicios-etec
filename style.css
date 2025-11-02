@@ -1,0 +1,72 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #1e1e2f; /* fundo escuro */
+  color: #eee;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #2a2a3f, #3b3b5a); /* gradiente escuro */
+  color: #fff;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.projects-caixa {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: linear-gradient(135deg, #2c2c3e, #38385a); /* gradiente escuro dos cards */
+  padding: 1.8rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #eee;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 18px rgba(0,0,0,0.6);
+}
+
+.project-card h2 {
+  margin-bottom: 0.5rem;
+  color: #7abaff; /* azul suave para destaque */
+  font-size: 1.4rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #ccc; /* texto secundário suave */
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2a2a3f;
+  color: #fff;
+  margin-top: 2rem;
+}
